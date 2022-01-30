@@ -1,0 +1,48 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    display: grid;
+    align-items: center;
+ }
+ main{
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,280px);
+    gap: 1.5rem;
+    justify-content: center;
+ }
+ .card{
+    box-shadow: 2px 2px 10px rgba(110,110,110);
+    height: 150px;
+ }
+ .headcard{
+    height: 25%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+ }  
+ .maincard{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ }
+ .card1{
+    padding: 10px;
+ }
+ .card2{
+    color: #5e4eee;
+    margin-bottom: .5rem;
+ }
+ .card3{
+    color: #09bd18;
+ }
+ .card4{
+     color: #cc1818;
+ }

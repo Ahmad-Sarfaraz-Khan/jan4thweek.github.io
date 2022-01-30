@@ -1,0 +1,29 @@
+[1:36 pm, 29/01/2022] LOVE ❤❤: * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    border-radius: 3px;
+    border: none;
+    color: #140303;
+    background-color: #a1fd6b;
+  }
+  .todo-item,
+  .input-form {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-form input {
+    padding: 5px 10px;
+    margin-right: 5px;
+  }
+  
+  .todo-item {
+    margin: 10px 0;
+  }
